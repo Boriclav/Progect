@@ -14,10 +14,10 @@ A = [[0,0,0,0,0,0],
 	 [0,0,0,0,0,0],
 	 [0,0,0,0,0,0],
 	 [0,0,0,0,0,0]]
-for i in range(lt):
+for i in range(lt + 1): 
 	A[i][0] = i * st
 #print(A)
-for j in range(ls):
+for j in range(ls + 1):
 	A[0][j] = j * st
 #print(A)
 for i in range(1, lt):
