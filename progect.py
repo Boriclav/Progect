@@ -34,7 +34,7 @@ for j in range(1, ls+1):
 	k +=1
 	for i in range(1, lt):
 		l += 1
-		if s[i-1] == t[j-1]:
+		if s[j-1] == t[j-1]:
 			A[i][j] = max (A[i - 1][j] + st, A[i-1][j-1] + wi, A[i][j - 1] + st)
 		else:
 			A[i][j] = max (A[i - 1][j] + st, A[i-1][j-1] + wi, A[i][j - 1] + st)
