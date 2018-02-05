@@ -4,11 +4,11 @@ l = 0
 s = 'gatta'
 t = 'gaattc' # We input 2  chains of nuclear
 print('input straffe')
-st = -2.0 #int(input())
+st = -2 #int(input())
 print('input winner')
-wi = 2.0 #int(input())
+wi = 2 #int(input())
 print('input einbishen')
-ei = -1.0 #int(input())
+ei = -1 #int(input())
 s = s.split()
 s = list(''.join(s))
 t = t.split()
