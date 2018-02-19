@@ -16,6 +16,8 @@ ls = len(s)
 lt = len(t) # j ist Linie, i ist Kolonne
 aat = '0'
 aas = '0' 
+for i in range (lt+1):
+	
 p = [[0,0,0,0,0,0],
 	 [0,0,0,0,0,0],
 	 [0,0,0,0,0,0],
