@@ -1,7 +1,7 @@
-
-# Heir durfe wir ändern diese Mothode fur nuclear hochladenz
-s = 'gatta'
-t = 'gaattc' # We input 2  chains of nuclear
+print ('Enter 1 nuclears code')
+s = input() #'gatta'
+print ('Enter 2 nuclears code')
+t = input() #'gaattc' # We input 2  chains of nuclear
 #print('input straffe')
 st = -2 #int(input())
 #print('input winner')
@@ -16,8 +16,17 @@ ls = len(s)
 lt = len(t) # j ist Linie, i ist Kolonne
 aat = '0'
 aas = '0' 
-for i in range (lt+1):
-	
+A = []
+P = []
+for r in range(lt+1):
+	A.append([])
+	for c in range(ls+1):
+		A[r].append([0])
+for q in range(lt+1):
+	P.append([])
+	for d in range(ls+1):
+		P[q].append([0])
+'''	
 p = [[0,0,0,0,0,0],
 	 [0,0,0,0,0,0],
 	 [0,0,0,0,0,0],
@@ -32,7 +41,7 @@ A = [[0,0,0,0,0,0],
 	 [0,0,0,0,0,0],
 	 [0,0,0,0,0,0],
 	 [0,0,0,0,0,0]]
-B = A
+''''
 for i in range(lt+1):
 	A[i][0] = i * st
 	#l +=1
