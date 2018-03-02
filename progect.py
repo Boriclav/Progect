@@ -1,14 +1,14 @@
 # Heir durfe wir ändern diese Mothode fur nuclear hochladenz
 print ('Enter 1 nuclears code')
-s = 'gatta' #input()
+s = input() #'gatta' 
 print ('Enter 2 nuclears code')
-t = 'gaattc'  #input() # We input 2  chains of nuclear
-#print('input straffe')
-st = -2 #int(input())
-#print('input winner')
-wi = 2 #int(input())
-#print('input einbishen')
-ei = -1 #int(input())
+t = input() #'gaattc' # We input 2  chains of nuclear
+print('input straffe')
+st = int(input())#-2 
+print('input winner')
+wi = int(input()) #2 
+print('input einbishen')
+ei = int(input()) #-1 
 s = s.split()
 s = list(''.join(s))
 t = t.split()
